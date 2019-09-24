@@ -19,7 +19,7 @@ ApiService.GetAllUser().then( response => {
 ```
 
 
-##Create User 
+## Create User 
 ```
 let payload = {  //api params
     name : "Github",
@@ -34,7 +34,7 @@ ApiService.createUser(payload).then( response => {
 })
 ```
 
-##Edit User 
+## Edit User 
 ```
 let payload = {  //api params
     id : "123",
@@ -50,7 +50,8 @@ ApiService.EditUser(payload).then( response => {
 })
 ```
 
-##Delete User 
+## Delete User 
+```
 let payload = {  //api params
     id : "123"
 }
